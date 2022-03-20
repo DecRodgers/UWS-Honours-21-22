@@ -13,7 +13,7 @@ URL="http://localhost/wordpress/index.php/foyer/2nddemo/"
 Prof1="--new-window --window-position=0,0 --user-data-dir=Default"
 
 # Second URL, usr-data-dir must be different for this instance 
-# Window-position must match monitor resolution of 2nd display (1920-3849) 
+# Window-position must match monitor resolution of 2nd display (1920-3839) 
 URL2="http://localhost/wordpress/index.php/foyer/presentation/"
 Prof2="--new-window  --window-position=1920,0 --user-data-dir=Profile1"
 
