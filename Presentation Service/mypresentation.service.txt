@@ -1,0 +1,19 @@
+#mypresentation.service Unit File, remove ,txt to use on Linux
+[Unit]
+Description=My Presentation Service
+After=graphical.target
+
+[Service]
+Environment=DISPLAY=:0.0
+Environment=XAUTHORITY=/home/pi/.Xauthority
+#Type=forking -causes 'start timeout' errors
+Type=simple
+ExecStart=/home/pi/presentation-service.sh
+Restart=always
+TimeoutStartSec=500
+User=pi
+Group=pi
+
+[Install]
+WantedBy=graphical.target
+

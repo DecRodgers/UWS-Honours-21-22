@@ -1,0 +1,17 @@
+Commands:
+#Create/Edit unit file
+sudo nano /lib/systemd/system/mypresentation.service
+
+#Reload services daemon after creating, reboot also required
+sudo systemctl daemon-reload
+
+#Start and stop service
+sudo systemctl start mypresentation.service
+sudo systemctl stop mypresentation.service
+
+#used by 'Restart Presentation' button in PowerControl
+sudo systemctl restart mypresentation.service 
+
+# enable/disable service from running
+sudo systemctl enable mypresentation.service
+sudo systemctl disable mypresentation.service
