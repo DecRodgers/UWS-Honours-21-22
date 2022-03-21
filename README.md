@@ -6,9 +6,9 @@ This project uses _WordPress_ as the CMS for uploading and managing content to a
 
 ## Power Control Page
 I was inspired to use create this since Digital Signage solutions can be in physically difficult to reach places, so the purpose was to provide a remote, secure method to shut down the device without physical access.
-The method is very similar to the inspiration from element14 (found [here](https://community.element14.com/products/raspberry-pi/raspberrypi_projects/b/blog/posts/pi-webpage-reboot)), but runs the command directly in PHP rather than a seperate python script.
+The method is very similar to the inspiration from element14 (found [here](https://community.element14.com/products/raspberry-pi/raspberrypi_projects/b/blog/posts/pi-webpage-reboot)), but runs the command directly in PHP rather than a separate python script.
 
-This will require editing the sudoers file to allow www-data for apache (or whatever web service user) to have permission to run the commands.
+This will require editing the sudoers file to allow www-data for Apache (or whatever web service user) to have permission to run the commands.
 
 
 ## Presentation Service
