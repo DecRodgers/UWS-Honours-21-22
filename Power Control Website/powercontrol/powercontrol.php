@@ -72,9 +72,8 @@ var z = document.getElementById("shutdownMessage")
 	//end clean when required action finishes
   function reboot(){                    
        ob_start();
-       echo "<h2>Reboot: 10 Second</h2>";
-       ob_flush();
        sleep(5);
+       ob_flush();
        ob_end_clean();
        ob_start();
        header("location: includes/logout.php"); //send user back to the login page.
@@ -86,9 +85,8 @@ var z = document.getElementById("shutdownMessage")
   
   function shutdown(){                    
        ob_start();
-       echo "<h2>Shutdown: 1 Minute</h2>";
-       ob_flush();
        sleep(5);
+       ob_flush();
        ob_end_clean();
        ob_start();
        header("location: includes/logout.php"); //send user back to the login page.
@@ -118,6 +116,3 @@ var z = document.getElementById("shutdownMessage")
 ?>
 
 </html>
-
-
-
